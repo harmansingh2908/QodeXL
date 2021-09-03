@@ -1,0 +1,32 @@
+{
+  "name": "Qodexl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node ./server.ts",
+    "start:watch": "nodemon -e ts --exec \"ts-node ./server.ts\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.7.6",
+    "body-parser": "^1.19.0",
+    "celebrate": "^15.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validation": "^3.0.8",
+    "joi": "^13.0.2",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.2",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
